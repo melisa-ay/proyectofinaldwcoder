@@ -8,11 +8,16 @@
   box-sizing: border-box;
 }
 
-/* estilo header */
+body {
+  width: 100vw
+  height: 100%;
+  
+}
 
 header {
   background-color: #e4b46c;
-  height: 100px;
+  widht: 100vw;
+  height: 12%;
 }
 
 a:link,
@@ -24,7 +29,7 @@ a:active {
   display: inline-block;
 }
 
-.logo {
+#logo {
   width: 100px;
   height: 98px;
 }
@@ -42,7 +47,9 @@ a:active {
   font-size: 21px;
 }
 
-body {
+main {
+  width: 100vw;
+  height: 78%;
   background-color: #f2ead0;
 }
 
@@ -71,56 +78,65 @@ p {
 
 /* estilo imagenes */
 
-.imagencentral__inicio {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  left: 450px;
-  top: 30px;
+#imgppal{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
 }
+
+#acceso3img{
+display=flex;
+flex-direction:row;
+justify-content: center;
+align-items:justify;
+width:100%;
+height: 35%;
+}
+
+div id="imgboxesespeciales{
+  width: 25%;
+  
+  }
+
+div id="imgsalado"{
+  width: 25%;
+
+}
+
+div id="imgpasteleria"{
+  width: 25%;
+ 
+}
+
 
 .imagen__boxesespeciales {
   width: 200px;
   height: 200px;
-  position: relative;
-  left: 80px;
-  top: 100px;
 }
 
 .boton__boxesespeciales {
-  position: relative;
-  left: 130px;
-  top: 120px;
+  
 }
 
 .imagen__salado {
   width: 200px;
-  height: 200px;
-  position: relative;
-  left: 510px;
-  bottom: 130px;
+  height: 200px; 
 }
 
 .boton__salado {
-  position: relative;
-  left: 560px;
-  bottom: 105px;
+  
 }
 
 /* <!-- IMAGEN PASTELERÍA -->  */
 .imagen__pasteleria {
     width: 200px;
     height: 200px;
-    position: absolute;
-    right: 180px;
-    bottom: -120px;
-    
-  }
+      }
   
   .boton__pasteleria {
-    position: absolute;
-    right: 240px;
-    bottom: -170px;
+    
   }
 
   /* <!-- Media Querie  --> */
@@ -145,17 +161,15 @@ div .formulario__contacto {
   font-family: "Roboto", sans-serif;
   color: #815717;
 }
-}
 
-/* estilos footer */
-
-.footer {
+footer {
   text-align: center;
-  margin-top: 250px;
-  margin-bottom: 3px;
+  /* margin-top: 250px;
+  margin-bottom: 3px; */
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #4d3b3b;
   background-color: #d9a566;
-  height: 33px;
+  height: 10%;
+  width: 100vw;
 }
