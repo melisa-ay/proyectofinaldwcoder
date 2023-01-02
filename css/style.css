@@ -10,166 +10,83 @@
 
 body {
   width: 100vw;
-  height: 100%;
-  
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   background-color: #e4b46c;
   width: 100vw;
-  height: 12%;
-}
-
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-.navbar {
-  display: inline-block;
-}
-
-#logo {
-  width: 100px;
-  height: 98px;
-}
-
-.menu {
-  position: relative;
-  left: 50px;
-  bottom: 49px;
-}
-.menu__item {
-  display: inline-block;
-  padding: 1.5rem;
-  color: #f2f2f0;
-  font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  height: 15%;
 }
 
 main {
   width: 100vw;
   height: 78%;
-  background-color: #f2ead0;
+   background-color: #f2ead0;
 }
 
-h1 {
-  font-size: 22px;
-  font-family: "Roboto", sans-serif;
-  color: #815717;
-  line-height: 2.5;
-}
+/* ESTILOS INDEX */
 
-.textoNegrita {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.textoMarron {
-  color: #815717;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  color: #815717;
-  line-height: 1.5;
-}
-
-/* estilo imagenes */
-
-#imgppal{
-  width: 100%;
-  height: 65%;
+#s-imgppal {
   display: flex;
-  flex-direction:row;
   justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: 40%;
+  background-image: url(../assets/images/minilemon.jpeg)
 }
 
-#acceso3img{
-display:flex;
-flex-direction:row;
-justify-content: center;
-align-items:justify;
-width:100%;
-height: 35%;
-}
-
-#imgboxesespeciales{
-  width: 25%;
-  
-  }
-
-#imgsalado{
-  width: 25%;
-
-}
-
-#imgpasteleria{
-  width: 25%;
- 
-}
-
-
-.imagen__boxesespeciales {
-  width: 200px;
-  height: 200px;
-}
-
-.boton__boxesespeciales {
-  justify-items: center;
-}
-
-.imagen__salado {
-  width: 200px;
-  height: 200px; 
-}
-
-.boton__salado {
-  justify-items: center;
-}
-
-/* <!-- IMAGEN PASTELERÍA -->  */
-.imagen__pasteleria {
-    width: 200px;
-    height: 200px;
-      }
-  
-  .boton__pasteleria {
-    justify-items: center;
-  }
-
-  /* <!-- Media Querie  --> */
-
-  @Media  (max-width: 480px){
-
-  
-/* estilo formulario de contacto */
-
-div .formulario__contacto {
-  position: relative;
-  /* left: 430px;
-  top: 100px; */
-}
-
-
-.formulario__contacto {
-  display: inline-block;
+#div-logo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-content: center;
-  padding: 1rem;
-  font-size: 21px;
-  font-family: "Roboto", sans-serif;
-  color: #815717;
+  width: 100%;
+}
+
+#imagenppal{
+  width: 250px;
+  height: 250px;
+  }
+
+#s-3img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+
+.img__conboton{
+  width: 250px;
+  height: 250px;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boton__imgindex{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
-  margin-top: 250px;
-  margin-bottom: 3px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   color: #4d3b3b;
   background-color: #d9a566;
-  height: 10%;
+  height: 7%;
   width: 100vw;
 }

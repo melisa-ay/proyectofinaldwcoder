@@ -8,58 +8,73 @@
     <title>
         <Mangia-inicio></Mangia-Inicio>
     </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- NAVBAR -->
+
     <header>
-        <img id="logo" src="./assets/images/logo_mangia.jpg" alt="logo_mangia>
-        <nav class=" navbar">
-        <ul class="menu">
-            <li class="menu__item"><a class="menu__item" href="./index.html">Inicio</a>
-            </li>
-            <li class="menu__item"><a class="menu__item" href="./pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="menu__item"><a class="menu__item" href="./pages/productos.html">Productos</a>
-            </li>
-            <li class="menu__item"><a class="menu__item" href="./pages/preguntas-frecuentes.html">Preguntas
-                    Frecuentes</a>
-            </li>
-            <li class="menu__item"><a class="menu__item" href="./pages/contacto.html">Contacto</a>
-            </li>
-        </ul>
+        <!-- NAVBAR BOOTSRAP -->
+        <nav class="navbar navbar-expand-lg">
+
+            <div class=" container-fluid">
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="imgppal">
-            <div>
-                <img id="imagen_central_inicio" src="./assets/images/lemon_pie.jpg" alt="imagen inicio">
+        <section id="s-imgppal">
+            <div id="div-logo">
+                <img id="imagenppal" src="./assets/images/logo_mangia.jpg" alt="logo_mangia">
             </div>
+
         </section>
 
-        <section id="acceso3img">
-
-            <div id="imgboxesespeciales">
-                <img class="imagen__boxesespeciales" src="./assets/images/box.jpg" alt="Boxes Especiales">
-                <button class="boton__boxesespeciales"><a href="./pages/productos.html"></a>Boxes Especiales</button>
+        <section id="s-3img">
+            <div>
+                <img class="img__conboton" src="./assets/images/box.jpg" alt="Boxes Especiales">
+                <button class="boton__imgindex"><a href="./pages/productos.html"></a>Boxes Especiales</button>
             </div>
 
-            <div id="imgsalado">
-                <img class="imagen__salado" src="./assets/images/sandwich.jpg" alt="Salado">
-                <button class="boton__salado"><a href="./pages/productos.html"></a>Salado & Lunch</button>
+            <div>
+                <img class="img__conboton" src="./assets/images/sandwich.jpg" alt="Salado">
+                <button class="boton__imgindex"><a href="./pages/productos.html"></a>Salado & Lunch</button>
             </div>
 
-
-            <div id="imgpasteleria">
-                <img class="imagen__pasteleria" src="./assets/images/pan_dulce.jpg" alt="Pastelería">
-                <button class="boton__pasteleria"><a href="./pages/productos.html"></a>Pastelería</button>
+            <div>
+                <img class="img__conboton" src="./assets/images/pan_dulce.jpg" alt="Pastelería">
+                <button class="boton__imgindex"><a href="./pages/productos.html"></a>Pastelería</button>
             </div>
+
         </section>
     </main>
 
-    <!-- FOOTER -->
     <footer>
         <ul>
             <a class="footer__item" href="index.html">Inicio</a>
@@ -69,6 +84,10 @@
             <a class="footer__item" href="./pages/contacto.html">Contacto</a>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
